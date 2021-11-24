@@ -1,0 +1,15 @@
+.element__like {
+  background-image: url(../../../images/group-vector.svg);
+  width: 22px;
+  height: 19px;
+  padding: 0;
+  cursor: pointer;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: opacity .5s ease;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  background-color: #fff;
+}
