@@ -9,8 +9,8 @@ let inputJob = popupForm.querySelector('.popup__input-job');
 
 function open() {
   popup.classList.add('popup_opened');
-  profileTitle.textContent = inputName.value;
-  profileSubtitle.textContent = inputJob.value;
+  inputName.value = profileTitle.textContent;
+  inputJob.value = profileSubtitle.textContent;
 }
 
 function close() {
@@ -19,7 +19,7 @@ function close() {
 openPopup.addEventListener('click', open);
 closePopup.addEventListener('click', close);
 
-function formSubmitHandler (evt) {
+function formSubmitHandler(evt) {
   evt.preventDefault();
   profileTitle.textContent = inputName.value;
   profileSubtitle.textContent = inputJob.value;
