@@ -9,7 +9,15 @@
   background-repeat: no-repeat;
   transition: opacity .5s ease;
   box-sizing: border-box;
-  outline: none;
   border: none;
   background-color: #fff;
+}
+
+.element__like:hover {
+  opacity: 50%;
+}
+
+.element__like:active {
+  background-image: url(../../../images/group-vector-active.svg);
+  opacity: 100%;
 }
