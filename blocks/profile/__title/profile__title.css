@@ -9,6 +9,7 @@
   padding: 0;
   margin: 0;
   grid-area: title;
+  max-width: 550px;
 }
 
 @media screen and (max-width: 1050px) {
@@ -17,5 +18,6 @@
     line-height: 33px;
     max-width: 235px;
     justify-self: center;
+    margin-left: 25px;
   }
 }

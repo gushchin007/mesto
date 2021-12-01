@@ -8,7 +8,7 @@
 </head>
 
 <body class="page">
- <header class="header">
+  <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="Логотип.">
   </header>
 
@@ -76,23 +76,24 @@
     </section>
   </main>
 
-  <section class="popup">
-    <div class="popup__container">
-      <button class="popup__close-button"></button>
-      <form class="popup__form" name="formname">
-        <h2 class="popup__title">Редактировать профиль</h2>
-        <fieldset class="popup__field">
-          <input class="popup__input-name" type="text" name="inputname" id="name-input" placeholder="Жак-Ив Кусто">
-          <input class="popup__input-job" type="text" name="inputdescription" id="description-input" placeholder="Исследователь океана">
-        </fieldset>
-        <button class="popup__submit-button">Сохранить</button>
-      </form>
-    </div>
-  </section>
-
   <footer class="footer">
     <p class="footer__copyright">&copy; 2021 Mesto Russia</p>
   </footer>
+
+  <div class="popup">
+    <div class="popup__container">
+      <button class="popup__close-button" type="button"></button>
+      <form class="popup__form" name="formname">
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <fieldset class="popup__field">
+          <input class="popup__input" type="text" name="inputname" id="name-input" placeholder="Жак-Ив Кусто">
+          <input class="popup__input" type="text" name="inputdescription" id="description-input" placeholder="Исследователь океана">
+        </fieldset>
+        <button class="popup__submit-button" type="submit">Сохранить</button>
+      </form>
+    </div>
+  </div>
+
 <script src="pages/script.js"></script>
 </body>
 </html>
